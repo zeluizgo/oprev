@@ -15,3 +15,6 @@ I've just picked some files that shows up this implementantion which envolves JA
 4. vitrine.jsp - The JSP which call the XSLTransForm above in an specific owned taglib.
 5. left-area.xml - XML files using specific markups defined in website.xsd.
 
+
+This kind of mecanism (XSLT Transformation) was used further in other projects not only in java, with xsl files in Peugeot website in 2004 and directly in VBA code in MSAccess in Unibanco in 2006 working with geo processed .kml files in google Earth.
+
