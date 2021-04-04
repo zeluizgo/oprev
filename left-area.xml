@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Jose Luiz (Modem Media) -->
+<left-area xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="P:\odontoprev\portal\fontes\xml\global\website.xsd">
+	<menu userstatus="logged">
+		<menu-section>
+			<title>
+				<text>SERVIÇOS</text>
+			</title>
+			<menu-folder id="pront">
+				<title>
+					<text>Prontuário Virtual</text>
+				</title>
+				<menu-subitem href="/servico/prontuario/verProntuario.do" class="linkbranco">
+					<text>Extrato de Verificação</text>
+				</menu-subitem>
+				<menu-subitem href="/servico/tratamento/verTratamento.do" class="linkbranco">
+					<text>Tratamentos</text>
+				</menu-subitem>
+				<menu-subitem href="/servico/ir/verExtrato.do" class="linkbranco">
+					<text>Extrato</text>
+				</menu-subitem>
+				<menu-subitem href="/servico/ir/verExtratoSint.do" class="linkbranco">
+					<text>Extrato Sintético</text>
+				</menu-subitem>
+			</menu-folder>
+			<menu-folder id="reemb">
+				<title>
+					<text>Reembolso</text>
+				</title>
+				<menu-subitem href="/servico/reembolso/verReembolsoSolic.do" class="linkbranco">
+					<text>Formulário Reembolso</text>
+				</menu-subitem>
+				<menu-subitem href="/servico/reembolso/verReembolso.do" class="linkbranco">
+					<text>Formulários Utilizados</text>
+				</menu-subitem>
+				<menu-subitem href="#" class="linkbranco" onclick="window.open('/servico/reembolso/verReembolsoPend.do','reembolso','width=600,height=500,top=10,left=10,status=yes');">
+					<text>Pendências Reembolso</text>
+				</menu-subitem>
+			</menu-folder>
+			<menu-folder id="mail">
+				<title>
+					<text>OdontoPrev Mail</text>
+				</title>
+				<menu-subitem href="/servico/odontoprevmail/verOdontoprevMailAbertura.do" class="linkbranco">
+					<text>Aviso de Abertura</text>
+				</menu-subitem>
+				<menu-subitem href="/servico/odontoprevmail/verOdontoprevMailExtrato.do" class="linkbranco">
+					<text>Extrato de Tratamentos</text>
+				</menu-subitem>
+			</menu-folder>
+			<menu-folder id="ir">
+				<title>
+					<text>Dedução de IR</text>
+				</title>
+				<menu-subitem href="/servico/ir/verExtrato.do" class="linkbranco">
+					<text>Extrato</text>
+				</menu-subitem>
+				<menu-subitem href="/servico/ir/verExtratoSint.do" class="linkbranco">
+					<text>Extrato Sintético</text>
+				</menu-subitem>
+			</menu-folder>
+		</menu-section>
+		<menu-section>
+			<title>
+				<text>CENTRAL DE ATENDIMENTO</text>
+			</title>
+			<menu-item href="/servico/indicacao/verIndicacao.do?d=ass" class="linkbranco">
+				<text>Indicação de Dentista</text>
+			</menu-item>
+		</menu-section>
+		<menu-section>
+			<title>
+				<text>CENTRAL DE INFORMAÇÕES</text>
+			</title>
+			<menu-item href="/servico/rede/verRede.do?d=ass" class="linkbranco">
+				<text>Rede Credenciada</text>
+			</menu-item>
+			<menu-item href="/servico/etica/verEticaAssociado.do?d=ass" class="linkbranco">
+				<text>Código de Ética</text>
+			</menu-item>
+			<menu-item href="/servico/odontonews/index.jsp?d=ass" class="linkbranco">
+				<text>Odontologia &amp; Prevenção</text>
+			</menu-item>
+			<menu-item href="/servico/novidades/novidades.jsp" class="linkbranco">
+				<text>Novidades</text>
+			</menu-item>
+		</menu-section>
+	</menu>
+	<menu userstatus="notlogged">
+		<menu-section>
+			<title>
+				<text>SERVIÇOS</text>
+			</title>
+			<menu-item href="/wrapper/vitrine.jsp?m=tratamento&amp;d=ass" class="linkbranco">
+				<text>Prontuário Virtual</text>
+			</menu-item>
+			<menu-item href="/wrapper/vitrine.jsp?m=reembolso&amp;d=ass" class="linkbranco">
+				<text>Reembolso</text>
+			</menu-item>
+			<menu-item href="/wrapper/vitrine.jsp?m=suaconta&amp;d=ass" class="linkbranco">
+				<text>Sua Conta</text>
+			</menu-item>
+			<menu-item href="/wrapper/vitrine.jsp?m=agenda&amp;d=ass" class="linkbranco">
+				<text>Agenda Eletrônica</text>
+			</menu-item>
+			<menu-item href="/wrapper/vitrine.jsp?m=previa&amp;d=ass" class="linkbranco">
+				<text>Prévia de Reembolso</text>
+			</menu-item>
+			<menu-item href="/wrapper/vitrine.jsp?m=status&amp;d=ass" class="linkbranco">
+				<text>Status de Reembolso</text>
+			</menu-item>
+			<menu-item href="/wrapper/vitrine.jsp?m=managed&amp;d=ass" class="linkbranco">
+				<text>Managed Care Ativo</text>
+			</menu-item>
+		</menu-section>
+		<menu-section>
+			<title>
+				<text>CENTRAL DE ATENDIMENTO</text>
+			</title>
+			<menu-item href="/wrapper/vitrine.jsp?m=indicacao&amp;d=ass" class="linkbranco">
+				<text>Indicação de Dentista</text>
+			</menu-item>
+			<menu-item href="/wrapper/vitrine.jsp?m=manuais&amp;d=ass" class="linkbranco">
+				<text>Manuais</text>
+			</menu-item>
+		</menu-section>
+		<menu-section>
+			<title>
+				<text>CENTRAL DE INFORMAÇÕES</text>
+			</title>
+			<menu-item href="/wrapper/vitrine.jsp?m=relacao&amp;d=ass" class="linkbranco">
+				<text>Relação de Associados</text>
+			</menu-item>
+			<menu-item href="/wrapper/vitrine.jsp?m=rede&amp;d=ass" class="linkbranco">
+				<text>Rede Credenciada</text>
+			</menu-item>
+		</menu-section>
+	</menu>
+</left-area>

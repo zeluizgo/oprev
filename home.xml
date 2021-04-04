@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 (http://www.xmlspy.com) by Jose Luiz (Modem Media) -->
+<center-area xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="P:\odontoprev\portal\fontes\xml\global\website.xsd">
+	<nlogado>
+		<destaque bodybgcolor="#E7EEF3" titlebgcolor="#E7EEF3" height="60" width="209">
+			<title>
+				<text>CENTRAL DE INFORMAÇÕES</text>
+			</title>
+			<body>
+				<text>Acompanhe seus tratamentos on-line.<br/>
+					<image src="/img/fals_azul.gif" width="177" height="1" vspace="7" alt=""/>
+					<br/>
+					<b>
+						<link href="/wrapper/vitrine.jsp?m=tratamento&amp;d=ass" class="linkpreto">
+							<text>Clique aqui</text>
+						</link>
+					</b>
+				</text>
+			</body>
+		</destaque>
+		<destaque bodybgcolor="#E7EEF3" titlebgcolor="#E7EEF3" height="60" width="209">
+			<title>
+				<text>SERVIÇOS</text>
+			</title>
+			<body>
+				<text>Encontre um dentista mais próximo de sua casa.<br/>
+					<image src="/img/fals_azul.gif" width="177" height="1" vspace="7" alt=""/>
+					<br/>
+					<b>
+						<link href="/wrapper/vitrine.jsp?m=rede&amp;d=ass" class="linkpreto">
+							<text>Saiba mais</text>
+						</link>
+					</b>
+				</text>
+			</body>
+		</destaque>
+		<destaque bodybgcolor="#E7EEF3" titlebgcolor="#E7EEF3" height="50" width="420">
+			<title>
+				<text>NOVIDADES</text>
+			</title>
+			<body>
+				<link href="/servico/novidades/news0104.jsp?d=ass" class="linkpreto">
+					<text>
+						22º CIOSP - Mais de 10 mil horas de treinamento para rede credenciada. <br/>
+						<br/>
+					</text>
+				</link>
+				<link href="/servico/novidades/news0104a.jsp?d=ass" class="linkpreto">
+					<text>
+							Atenas 2004 - OdontoPrev rumo à Atenas.
+						</text>
+				</link>
+			</body>
+		</destaque>
+		<imageFlash movie="/flash/associados_01.swf" width="420" height="191" page="/tour/tour.jsp?d=ass&amp;flash=tourassociados.swf"/>
+	</nlogado>
+	<logado>
+		<destaque bodybgcolor="#E7EEF3" titlebgcolor="#E7EEF3" height="1">
+			<title>
+				<text>FIQUE POR DENTRO</text>
+			</title>
+			<body>
+				<text>Sua gengiva sangra? Você pode estar com a doença Periodontal.<br/>
+					<br/>
+					<b>
+						<link href="/servico/novidades/news0803b.jsp?d=ass" class="linkpreto">
+							<text>Saiba mais</text>
+						</link>
+					</b>
+				</text>
+			</body>
+		</destaque>
+		<destaque bodybgcolor="#E7EEF3" titlebgcolor="#E7EEF3" height="1">
+			<title>
+				<text>QUEREMOS SABER</text>
+			</title>
+			<body>
+				<text>O que você achou do novo site da OdontoPrev?<br/>
+					<br/>
+					<b>
+						<link href="/inst/faleconosco.do?contato=7" class="linkpreto">
+							<text>Dê sua opinião.</text>
+						</link>
+					</b>
+				</text>
+			</body>
+		</destaque>
+		<teaser-box titlebgcolor="#929292" bodybgcolor="#C4C4C4">
+			<title>
+				<text>SUAS MENSAGENS</text>
+			</title>
+			<teaser>
+				<text> Receba por e-mail o seu extrato de abertura de tratamento.</text>
+				<link href="/servico/odontoprevmail/verOdontoprevMailAbertura.do" class="linkpreto">
+					<text>
+						<b>Clique aqui</b>
+					</text>
+				</link>
+			</teaser>
+			<teaser>
+				<text> Consulte seu informativo de Imposta de Renda.</text>
+				<link href="/servico/ir/verExtrato.do" class="linkpreto">
+					<text>
+						<b>Clique aqui.</b>
+					</text>
+				</link>
+			</teaser>
+		</teaser-box>
+		<teaser-box titlebgcolor="#AFAFAF" bodybgcolor="#E0E0E0">
+			<title>
+				<text>ODONTOLOGIA &amp; PREVENÇÃO</text>
+			</title>
+			<teaser>
+				<text>
+					<b> Destaque do mês</b>
+				</text>
+				<link href="/servico/odontonews/opnews1003.jsp?d=ass" class="linkpreto">
+					<text>Uma nova campanha e um portal diferenciado.</text>
+				</link>
+				<link href="/servico/odontonews/index.jsp?d=ass" class="linkpreto">
+					<text>
+						<b>Veja anteriores.</b>
+					</text>
+				</link>
+			</teaser>
+		</teaser-box>
+		<teaser-box titlebgcolor="#AFAFAF" bodybgcolor="#E0E0E0">
+			<title>
+				<text>NOVIDADES</text>
+			</title>
+			<teaser>
+				<link href="/servico/novidades/news0104.jsp" class="linkpreto">
+					<text>01/2004 - 22º CIOSP - Mais de 10 mil horas de treinamento para rede credenciada. 
+					
+					</text>
+				</link>
+			</teaser>
+			<teaser>
+				<link href="/servico/novidades/news1103a.jsp" class="linkpreto">
+					<text>01/2004 - Atenas 2004 - OdontoPrev rumo à Atenas.</text>
+				</link>
+			</teaser>
+		</teaser-box>
+	</logado>
+</center-area>
